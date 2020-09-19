@@ -12,4 +12,13 @@ body {
     color: ${props => props.theme.colors.text};
     font: 400 16px Roboto, sans-serif;
   }
+
+h1 {
+  height: 100vh;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 `
